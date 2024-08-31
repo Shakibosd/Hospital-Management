@@ -1,0 +1,27 @@
+.login-container {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 7rem;
+}
+
+.input {
+  padding: 30px 45px;
+  border: none;
+  margin: 20px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 15px;
+}
+
+.submit-btn {
+  padding: 15px 25px;
+  width: 90%;
+  border: none;
+  margin: auto;
+  color: white;
+  background-color: darkcyan;
+  font-size: 20px;
+  border-radius: 10px;
+}

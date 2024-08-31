@@ -1,0 +1,177 @@
+body {
+  margin: auto;
+  background-color: #ecececec !important;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  background-color: #ecececec;
+  box-shadow: 4px 4px 8px gray;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu {
+  font-size: 20px;
+}
+
+.banner-container {
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.banner {
+  display: flex;
+  height: 450px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(60deg, #c4e1e4, #32b5d2);
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+  /* padding: 30px; */
+}
+
+.bn-img {
+  width: 380px;
+  margin-top: -140px;
+}
+
+.service-container {
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.title {
+  color: #04898e;
+  font-size: 44px;
+  text-align: center;
+}
+
+.doctors-container {
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.doc-card {
+  width: 340px;
+  height: 380px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.doc-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#search {
+  padding: 15px;
+  width: 95%;
+  border: none;
+  border-radius: 30px;
+}
+
+.nodata {
+  display: none;
+}
+
+#spinner {
+  display: none;
+}
+
+.reviews-card {
+  width: 330px;
+  height: 330px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.reviews-card img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50px;
+}
+
+.fot-back {
+  background: linear-gradient(60deg, #40ccd9, #0b95b4);
+  padding: 50px;
+}
+
+.doctor-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.doc-details-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 50px;
+  width: 75%;
+  margin: auto;
+}
+
+.user-details-container {
+  margin: auto;
+}
+
+.user-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.user-all {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.doctor {
+  width: 350px;
+  height: 400px;
+  box-shadow: 4px 4px 8px gray;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+}
+
+.symtom {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+}
+
+.data-pdf {
+  border: 2px solid lightblue;
+  border-radius: 20px;
+  margin: auto;
+  height: 300px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.data-pdf h4 {
+  color: blue;
+}
+
+.data-pdf h6 {
+  color: red;
+}
